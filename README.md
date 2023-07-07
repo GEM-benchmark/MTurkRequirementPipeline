@@ -9,6 +9,16 @@
 
 This repository contains analysis scripts for our ACL 2023 paper "A Needle in a Haystack: An Analysis of High-Agreement Workers on MTurk for Summarization" [[ACL](https://virtual2023.aclweb.org/paper_P3709.html)][[arXiv](https://arxiv.org/abs/2212.10397)][[PDF](https://arxiv.org/pdf/2212.10397.pdf)].
 
+<p align="center">
+  <image src='figures/pipeline.png'/>
+</p>
+
+<p align="center">
+<em>
+  Fig1: 
+</em>
+</p>
+
 ## Abstract
 > To prevent the costly and inefficient use of resources on low-quality annotations, we want a method for creating a pool of dependable annotators who can effectively complete difficult tasks, such as evaluating automatic summarization. Thus, we investigate the recruitment of high-quality Amazon Mechanical Turk workers via a two-step pipeline. We show that we can successfully filter out subpar workers before they carry out the evaluations and obtain high-agreement annotations with similar constraints on resources. Although our workers demonstrate a strong consensus among themselves and CloudResearch workers, their alignment with expert judgments on a subset of the data is not as expected and needs further training in correctness. This paper still serves as a best practice for the recruitment of qualified annotators in other challenging annotation tasks.
 
