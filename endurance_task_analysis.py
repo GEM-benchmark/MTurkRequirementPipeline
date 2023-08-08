@@ -11,7 +11,7 @@ plt.style.use("ggplot")
 
 
 parser = argparse.ArgumentParser(description="endurance task analysis")
-parser.add_argument("--file_path", type=str, default="./data/Annotations/SILVER_w:_r4_results.csv")
+parser.add_argument("--file_path", type=str, default="../data/Annotations/SILVER_w:_r4_results.csv")
 args = parser.parse_args()
 
 
@@ -54,8 +54,8 @@ def single_CK_viz(df, worker_list):
 		ax.set_title(ans, fontsize=fontsize)
 		# plt.xticks(np.arange(num_worker)+0.5, ["S21", "S22", "S23", "S31", "S32", "S41", "S42", "S43"], fontsize=fontsize-4)
 		# plt.yticks(np.arange(num_worker)+0.5, ["S21", "S22", "S23", "S31", "S32", "S41", "S42", "S43"], fontsize=fontsize-4)
-		plt.xticks(np.arange(num_worker)+0.5, [f"Worker_{i+1}" for i in range(num_worker)], fontsize=fontsize-4)
-		plt.yticks(np.arange(num_worker)+0.5, [f"Worker_{i+1}" for i in range(num_worker)], fontsize=fontsize-4)
+		plt.xticks(np.arange(num_worker)+0.5, [f"W{i+1}" for i in range(num_worker)], fontsize=fontsize-4)
+		plt.yticks(np.arange(num_worker)+0.5, [f"W{i+1}" for i in range(num_worker)], fontsize=fontsize-4)
 		ax.set_xlabel("Worker ID", fontsize=fontsize)
 		ax.set_ylabel("Worker ID", fontsize=fontsize)
 		

@@ -21,7 +21,7 @@ csv.field_size_limit(sys.maxsize)
 
 
 parser = argparse.ArgumentParser(description="qualification task analysis")
-parser.add_argument("--file_path", type=str, default="./data/Annotations/Batch_4764797_batch_results.csv")
+parser.add_argument("--file_path", type=str, default="../data/Annotations/Batch_4764797_batch_results.csv")
 args = parser.parse_args()
 
 

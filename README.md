@@ -10,7 +10,7 @@
 This repository contains analysis scripts for our ACL 2023 paper "A Needle in a Haystack: An Analysis of High-Agreement Workers on MTurk for Summarization" [[ACL](https://virtual2023.aclweb.org/paper_P3709.html)][[arXiv](https://arxiv.org/abs/2212.10397)][[PDF](https://arxiv.org/pdf/2212.10397.pdf)].
 
 <p align="center">
-  <image src='figures/pipeline.png'/>
+  <image src='figures/pipeline.png' width="300px"/>
 </p>
 
 <p align="center">
